@@ -7,10 +7,10 @@ import java.util.function.BiFunction;
 			return a*b;  
 		   }  
 		}  
-		public class Multilication {  
+		public class Multiplication {  
 		   public static void main(String[] args) {  
 			BiFunction<Integer, Integer, Integer> product = Multiplay::multiply;  
-			int pr = product.apply(11, 5);  
+			int pr = product.apply(11,5);  
 			System.out.println("Product of given number is: "+pr);  
 		   }  
 		}
